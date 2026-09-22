@@ -6,6 +6,7 @@
 <meta name="theme-color" content="#17324D">
 <title>클밍성지 대부도 MT</title>
 <style>
+html{scroll-behavior:smooth}
 :root{
   --navy:#17324D;
   --blue:#3B82F6;
@@ -153,7 +154,10 @@ body{
       <div class="time">14:00</div>
       <div>
         <div class="main">장보기</div>
-        <div class="sub">└ 장소 미정</div>
+        <div class="sub">
+          └ 장소 미정<br>
+          └ <a class="place" href="#shopping-list">장보기 리스트</a>
+        </div>
       </div>
     </div>
 
@@ -240,7 +244,7 @@ body{
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="shopping-list">
     <h2>장보기 리스트</h2>
 
     <div class="shopping-grid">
