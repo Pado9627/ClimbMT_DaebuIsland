@@ -83,6 +83,15 @@ body:before{
   margin:20px 0;
   box-shadow:var(--shadow);
 }
+
+/* DAY 1과 DAY 2를 하나의 MT 일정표처럼 연결 */
+/* DAY 1과 DAY 2는 각각 독립된 일정 카드 */
+.day:first-of-type{
+  margin-bottom:20px;
+}
+.day + .day{
+  margin-top:20px;
+}
 .day-head{
   padding:13px 17px;
   color:#fff;
